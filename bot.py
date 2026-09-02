@@ -4,8 +4,8 @@ import telebot
 import google.generativeai as genai
 
 # Read secrets from environment variables (safe and secure)
-TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
+TELEGRAM_BOT_TOKEN = "8945870305:AAEYyQB0jsQ7UC1KgDM8fyX14DyVfTlhfzA"
+GEMINI_API_KEY = "AQ.Ab8RN6KseNJ8w72MQHkjHYNSCeoioau4z5bwj-4W_-56uW33Vg"
 
 genai.configure(api_key=GEMINI_API_KEY)
 bot = telebot.TeleBot(TELEGRAM_BOT_TOKEN)
